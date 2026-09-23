@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- رابط مكتبة Font Awesome الإصدار السادس المستقر لتشغيل الأيقونات فوراً -->
+    <link rel="stylesheet" href="https://cloudflare.com" />
+
+    <title>Coach Yasen</title>
+  </head>
+  <!-- 1️⃣ أضفنا id="home" لوسم الـ body ليرجع المستخدم لأول الصفحة عند ضغط "الرئيسية" -->
+  <body id="home">
+    <header>
+      <nav>
+        <ul id="ul-mob">
+          <i id="icon-mob" class="fa-solid fa-bars nav-tog"></i>
+          <!-- 2️⃣ تحويل القائمة لروابط ذكية ترتبط بمعرفات الأقسام بالأسفل -->
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#portfolio">أعمالنا</a></li>
+          <li><a href="#services">خدماتنا</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero-container">
+        <!-- الجانب الأيمن: النصوص والمميزات -->
+        <div class="hero-content">
+          <span class="hero-badge">أهلاً بك في عالم الصحة واللياقة</span>
+          <h1 class="hero-title">ابدأ رحلة تغيير جسمك بطرق علمية ومضمونة</h1>
+          <p class="hero-subtitle">
+            نظام متكامل ومخصص لك 100% سواء كان هدفك خسارة الدهون والتنشيف، أو
+            بناء العضلات وزيادة الوزن بدون حرمان.
+          </p>
+
+          <!-- نقاط القوة السريعة -->
+          <ul class="hero-features">
+            <li>💪 برامج تدريبية مخصصة لمستواك (منزل أو جيم).</li>
+            <li>🍏 جداول غذائية مرنة ومحسوبة السعرات والماكروز.</li>
+            <li>📱 متابعة يومية خطوة بخطوة للإجابة على استفساراتك.</li>
+          </ul>
+
+          <!-- الأزرار -->
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-primary"
+              >اشترك الآن واستعرض الباقات</a
+            >
+            <a href="#contact" class="btn btn-secondary">استشارة مجانية 💬</a>
+          </div>
+        </div>
+
+        <!-- الجانب الأيسر: الشعار الفخم -->
+        <div class="hero-image-container">
+          <div class="logo-wrapper">
+            <!-- ضعي هنا اسم ملف اللوجو الأسود والأبيض الخاص بكِ -->
+            <img
+              src="/images/logo.png"
+              alt="شعار المدرب الاحترافي"
+              class="hero-logo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3️⃣ أضفنا id="about" ليرتبط بـ "من نحن" -->
+    <section class="about" id="about">
+      <div><h2>رؤيتنا ومنهجيتنا بالتغيير</h2></div>
+
+      <div class="cards-container">
+        <div class="card">
+          <h3>أنظمة غذائية مرنة</h3>
+          <h4>
+            تصميم جداول غذائية مخصصة 100% بناءعلى على طبيعة جسدك ،محسوبة السعرات
+            الحرارية
+          </h4>
+        </div>
+
+        <div class="card">
+          <h3>برامج تدريبية علمية</h3>
+          <h4>
+            خطط تمارين ذكية ومجربة تناسب مستوى لياقتك وطبيعة يومك ،سواء كنت تفضل
+            التمرين في الجيم أو في المنزل
+          </h4>
+        </div>
+
+        <div class="card">
+          <h3>متابعة ودعم مستمر</h3>
+          <h4>
+            نحن معك خطوة بخطوة ،متابعة دورية للإجابةعلى استفساراتك ،تعديل الخطط
+            بناء على تطور جسمك،ضمان الدعم حتى تصل لهدفك
+          </h4>
+        </div>
+      </div>
+    </section>
+    <br>
+
+    <!-- 4️⃣ أضفنا id="portfolio" ليرتبط بـ "أعمالنا" -->
+    <section id="portfolio">
+      <div class="porte"><h2>أعمالنا</h2></div>
+      <div class="port">
+        <div><img src="/images/1.png" alt="" /></div>
+        <div><img src="/images/2.png" alt="" /></div>
+      </div>
+    </section>
+
+    <!-- 5️⃣ أضفنا id="services" ليرتبط بـ "خدماتنا" وعرض باقاتك الحالية -->
+    <section id="services">
+      <div class="service">
+        <div class="ser">
+          <br>
+          <br>
+          <h2>باقات داخل مصر</h2>
+          <div>
+            <h3>باقة 3 اشهر الذهبة</h3>
+            <ul>
+              <li>متابعة يومية مع المدرب على الواتساب</li>
+              <li>تصميم برنامج تغذية رياضية وعلاجية</li>
+              <li>تصميم برنامج تدريب منزلي او في الجيم</li>
+              <li>تصميم جدول مكملات غذائية وفيتامينات</li>
+              <h4>كتاب 100 وصفة صحية هدية مع الباكج</h4>
+            </ul>
+            <h4>1999 جنيه بدل 2500 جنيه</h4>
+            <a
+              href="https://wa.me/201009577018"
+              target="_blank"
+              class="icon-link whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <div>
+            <h3>باقة 3 اشهر الفضية</h3>
+            <ul>
+              <li>متابعة أسبوعية مع المدرب على الواتساب</li>
+              <li>تصميم برنامج تدريبي</li>
+              <li>تصميم جدول مكملات غذائية وفيتامينات</li>
+              <h4>كتاب 100 وصفة صحية هدية مع الباكج</h4>
+            </ul>
+            <h4>1799 جنيه بدل 2200 جنيه</h4>
+            <a
+              href="https://wa.me/201009577018"
+              target="_blank"
+              class="icon-link whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <div>
+            <h3>باقة 3 اشهر الموفرة</h3>
+            <ul>
+              <li>تصميم أنظمة تدريبية وتغذية بدون متابعة</li>
+              <li>تصميم جدول مكملات غذائية وفيتامينات</li>
+              <h4>كتاب 100 وصفة صحية هدية مع الباكج</h4>
+            </ul>
+            <h4>1299 جنيه بدل 1699 جنيه</h4>
+            <a
+              href="https://wa.me/201009577018"
+              target="_blank"
+              class="icon-link whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="ser">
+          <h2>باقات خارج مصر</h2>
+          <div>
+            <h3>باقة 3 اشهر الذهبة</h3>
+            <ul>
+              <li>متابعة يومية مع المدرب على الواتساب</li>
+              <li>تصميم برنامج تغذية رياضية وعلاجية</li>
+              <li>تصميم برنامج تدريب منزلي او في الجيم</li>
+              <li>تصميم جدول مكملات غذائية وفيتامينات</li>
+              <h4>كتاب 100 وصفة صحية هدية مع الباكج</h4>
+            </ul>
+            <h4>199 دولار بدل 300 دولار</h4>
+            <a
+              href="https://wa.me/201009577018"
+              target="_blank"
+              class="icon-link whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <div>
+            <h3>باقة 3 اشهر الفضية</h3>
+            <ul>
+              <li>متابعة أسبوعية مع المدرب على الواتساب</li>
+              <li>تصميم برنامج تدريبي</li>
+              <li>تصميم جدول مكملات غذائية وفيتامينات</li>
+              <h4>كتاب 100 وصفة صحية هدية مع الباكج</h4>
+            </ul>
+            <h4>149 دولار بدل 220 دولار</h4>
+            <a
+              href="https://wa.me/201009577018"
+              target="_blank"
+              class="icon-link whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <div>
+            <h3>باقة 3 اشهر الموفرة</h3>
+            <ul>
+              <li>تصميم أنظمة تدريبية وتغذية بدون متابعة</li>
+              <li>تصميم جدول مكملات غذائية وفيتامينات</li>
+              <h4>كتاب 100 وصفة صحية هدية مع الباكج</h4>
+            </ul>
+            <h4>99 دولار بدل 150 دولار</h4>
+            <a
+              href="https://wa.me/201009577018"
+              target="_blank"
+              class="icon-link whatsapp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6️⃣ أضفنا id="contact" ليرتبط بـ "تواصل معنا" باخر الصفحة مع تعديل روابط السوشيال ميديا ووضع رقم الواتساب الافتراضي للتجربة -->
+    <section id="contact">
+      <div class="cont">
+        <div><h2>تواصل معنا</h2></div>
+
+        <div class="icon-link-container">
+          <a
+            href="https://www.facebook.com/share/1Ewk4/RwNMc"
+            target="_blank"
+            class="icon-link facebook"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/coach_yasen?stkn=ZHNpZWlqY2JrazM0"
+            target="_blank"
+            class="icon-link instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <!-- اكتب رقمك الدولي هنا بدلاً من الرقم المؤقت المكتوب بالأسفل مباشرة -->
+          <a
+            href="https://wa.me/201009577018"
+            target="_blank"
+            class="icon-link whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- كود الجافا سكريبت في نهاية الصفحة تماماً -->
+    <script>
+      let icon = document.getElementById("icon-mob");
+      let ul = document.getElementById("ul-mob");
+
+      icon.onclick = function () {
+        ul.classList.toggle("mob-nav");
+      };
+    </script>
+  </body>
+</html>
